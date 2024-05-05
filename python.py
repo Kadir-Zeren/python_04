@@ -105,3 +105,13 @@ print(F'My name is {name.capitalize()}')
 print(f'saga hizalama {name:>20}')
 print(f'saga hizalama {name:<20}')
 print(f'saga hizalama {name:^20}')
+print(f'saga hizalama {name:*^20}')
+name = 'Susan'
+age = 'young'
+gender = 'lady'
+school = 'CLRWY IT university'
+print(
+    f'{name} is a {age} '
+    f'{gender} and she is a student '
+    f'at the {school}  '
+)
