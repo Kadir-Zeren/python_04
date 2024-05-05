@@ -91,3 +91,13 @@ print('The amount of {} we bought is {} pounds'.format(fruit,amount))
 print('Merhaba, ismin {2} yasin {0} meslegin ise {1}'.format(age,meslek,name))
 print('Merhaba, ismin {a} yasin {b} meslegin ise {c}'.format(b=age,c=meslek,a=name))
 print('{state} is the most {adjective} state of the {country}'.format(state='California',country='USA',adjective='crowded'))
+
+print('Merhaba, ismin {} ,yasin {b} meslegin ise {c}'.format(name,b=age,c=meslek))
+print('Merhaba, ismin {} ,yasin {b} meslegin ise {c}'.format(name,c=meslek,b=age))
+
+taban = 6 
+yukseklik = 4
+print('burada hesaplama gosterecegim {}'.format(taban*yukseklik/2))
+print(f'merhaba benim adim {name} yasim {age} meslegim {meslek}')
+print(f'burada hesaplama yapiyor{taban*yukseklik/2}')
+  
