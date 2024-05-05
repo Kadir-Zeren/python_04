@@ -100,4 +100,8 @@ yukseklik = 4
 print('burada hesaplama gosterecegim {}'.format(taban*yukseklik/2))
 print(f'merhaba benim adim {name} yasim {age} meslegim {meslek}')
 print(f'burada hesaplama yapiyor{taban*yukseklik/2}')
-  
+name = 'MARIAM'
+print(F'My name is {name.capitalize()}')
+print(f'saga hizalama {name:>20}')
+print(f'saga hizalama {name:<20}')
+print(f'saga hizalama {name:^20}')
